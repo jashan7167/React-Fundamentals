@@ -1,0 +1,15 @@
+.welcome-message {
+  font-size: 2.5rem;
+  background-color: lightcoral;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.warning {
+    font-size: 2.5rem;
+  background-color: lightcoral;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+}
