@@ -1,0 +1,41 @@
+*
+{
+  box-sizing: border-box;
+}
+.list-category
+{
+  font-size: 2.5em;
+  font-weight: bold;
+  color: hsl(0, 0%, 20%);
+  margin-bottom: 10px;
+  text-align: center;
+  border: 3px solid;
+  border-radius: 5px;
+  background-color: aqua;
+}
+
+.list-items
+{
+  font-size: 2em;
+  font-family: SF Pro Display;
+  color: brown;
+  list-style: circle;
+  text-align: center;
+  padding: 10px;  /*this will effect the padding of the unordered list padding is basically effects the positining of the content inside the box*/
+  
+}
+.list-items li
+{
+  padding:2px;
+  margin: 2px;
+}
+.list-items li:hover
+{
+  color: black;
+  box-shadow: 2px 2px 1px blue;
+  cursor: pointer;
+}
+b
+{
+  color: red;
+}
