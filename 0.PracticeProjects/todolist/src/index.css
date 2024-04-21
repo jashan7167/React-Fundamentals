@@ -1,0 +1,84 @@
+body {
+  background-color: hsl(0 0% 10%);
+}
+* {
+  font-family: SF Pro Display;
+}
+.to-do-list {
+  text-align: center;
+  margin-top: 100px;
+}
+input[type="text"] {
+  font-size: 1.6rem;
+  padding: 10px;
+  border: 2px solid hsla(0, 0%, 80%, 0.5);
+  border-radius: 5px;
+}
+
+h1 {
+  font-size: 4rem;
+  color: white;
+}
+.to-do-list input {
+  font-size: 1.5rem;
+}
+
+button {
+  color: white;
+  font-size: 1.3rem;
+  cursor: pointer;
+  padding: 10px 20px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.5 ease;
+  margin: 0px 5px;
+}
+
+.Task-Display {
+  display: grid;
+  grid-template-columns: 1;
+  row-gap: 20px;
+  font-size: 1.5rem;
+}
+
+li {
+  border: 2px solid black;
+  border-radius: 5px;
+  padding: 10px;
+  font-weight: bold;
+  background-color: hsl(0, 0%, 97%);
+  display: flex;
+  align-items: center;
+}
+
+/* flex:1 is a shortcut for the grow,shrink and basis */
+.text {
+  flex: 1;
+}
+
+.add-Button {
+  background-color: hsl(120, 100%, 54%);
+  padding: 12px 20px;
+}
+.add-Button:hover {
+  background-color: hsl(120, 100%, 44%);
+}
+.delete-button {
+  background-color: hsl(0, 100%, 55%);
+}
+.delete-button:hover {
+  background-color: hsl(0, 100%, 45%);
+}
+.up-button {
+  background-color: hsl(216, 100%, 55%);
+}
+.up-button:hover {
+  background-color: hsl(216, 100%, 35%);
+}
+.down-button {
+  background-color: hsl(216, 100%, 55%);
+}
+.down-button:hover {
+  background-color: hsl(216, 100%, 35%);
+}

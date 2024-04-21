@@ -1,0 +1,42 @@
+body {
+  font-family: SF Pro Display;
+}
+button {
+  border: none;
+  margin: 10px;
+  font-size: 2rem;
+  background-color: hsl(180, 100%, 40%);
+  color: black;
+  cursor: pointer;
+  border-radius: 10px;
+  font-family: SF Pro Display;
+}
+button:hover {
+  background-color: hsl(180, 100%, 20%);
+}
+
+.food-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 2rem;
+}
+
+.food-container li {
+  text-align: center;
+  margin-bottom: 5px;
+  color: black;
+  background-color: hsl(180, 100%, 40%);
+  border-radius: 10px;
+  box-shadow: 1px 2px 4px black;
+}
+
+.buttons input
+{
+  font-size: 1.5rem;
+}
+
+.buttons input:nth-child(2n)
+{
+  left: 100px;
+}
