@@ -1,0 +1,29 @@
+body {
+  background-image: url(./assets/landscapefantasy.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  align-items: center;
+}
+
+/* vw is viewport width and vh is viewport height */
+.clock-container {
+  backdrop-filter: blur(20px);
+  width: 100vw;
+  text-align: center;
+  padding: 10px 0;
+}
+
+/* text shadow shows shadow on the text giving it a 3deffect */
+.clockdisplay {
+  color: white;
+  font-size: 6rem;
+  font-family: SF Pro Display;
+  font-weight: bold;
+  text-shadow: 3px 3px 5px hsla(0, 0%, 0%, 0.75);
+}

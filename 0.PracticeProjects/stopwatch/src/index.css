@@ -1,0 +1,50 @@
+body
+{
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vw;
+  background-color: black;
+}
+
+.stopwatch-container
+{
+  border: 3px solid rgb(65, 52, 52);
+  text-align: center;
+  border-radius: 10px;
+  font-family: SF Pro Display;
+  width: 50vw;
+  padding: 50px;
+  font-size: 5rem;
+  color: white;
+  backdrop-filter: blur(10px);
+  background-image: url(./assets/macos-monterey-stock-green-dark-mode-layers-5k-3840x2160-5888.jpg);
+  text-shadow: 2px 2px black;
+
+}
+
+button
+{
+  font-size: 2rem;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  margin-right: 10px;
+  box-shadow: 0px 4px 3px black;
+  cursor: pointer;
+}
+.start-button
+{
+  background-color: green;
+}
+.stop-button
+{
+  background-color: red;
+}
+
+.reset-button
+{
+  background-color: blue;
+}
